@@ -51,15 +51,11 @@ def student_aprov(aprov_s, note = 5.0)
             end
         end
         average = sum.to_f/cont
-        
         if average > note
             puts "#{elem[0]}: aprobó"        
-        
         end
-        
     end
 end
-
 
 #en student se guarda el metodo del archivo Alumnos
 student = read_alum("Alumnos.csv")
